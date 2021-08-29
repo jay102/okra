@@ -1,0 +1,14 @@
+.navbar {
+  grid-area: navbar;
+  background-color: #55585a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  z-index: 4;
+  .logo {
+    font-size: 16px;
+    color: white;
+  }
+}

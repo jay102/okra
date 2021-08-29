@@ -1,0 +1,26 @@
+.dashboard__inner {
+  .top-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .main-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: 290px;
+    grid-gap: 20px;
+    margin: 20px;
+  }
+}
+
+@media only screen and (min-width: 65.625em) {
+  .dashboard__inner {
+    padding: 1rem 2rem 2rem 2rem;
+    .main-overview {
+      display: grid;
+      //grid-template-columns: 828px 1fr;
+    }
+  }
+}
